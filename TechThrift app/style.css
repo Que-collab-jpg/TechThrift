@@ -1,0 +1,221 @@
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.body{
+    background-color: #000000;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+.logo {
+    font-size: 28px;
+    color: #00BCD4;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #00BCD4;
+}
+
+.search {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.srch {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: #00BCD4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0196a6;
+}
+
+
+
+.slogan-text {
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.slogan-text span {
+  color: #00BCD4;
+}
+
+.description {
+  font-size: 18px;
+  color: #000000;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+    align-items: center;
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 18px;
+  background-color: #00BCD4;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: ease-in-out 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0196a6;
+}
+
+.menu ul li a:hover {
+    color: #00BCD4;
+}
+
+.search {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.srch {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: #00BCD4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0196a6;
+}
+.hero-container {
+    background-color: #1a1a1a; /* slightly darker shade */
+    padding: 60px 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.hero-left {
+    max-width: 600px;
+}
+
+.slogan-text {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.slogan-text span {
+    color: #00BCD4;
+}
+
+.description {
+    font-size: 18px;
+    color: #dddddd;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 18px;
+    background-color: #00BCD4;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0196a6;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    min-height: 70vh;
+}
+
+.hero-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-image img {
+        width: 120px;
+    }
+
+    .slogan-text {
+        font-size: 36px;
+    }
+}
+
+
+
+
+
